@@ -15,7 +15,7 @@ from bot.config import Config
 # TODO: is there a better way?
 SESSION_NAME = Config.SESSION_NAME
 TG_BOT_TOKEN = Config.TG_BOT_TOKEN
-APP_ID = Config.API_ID
+APP_ID = Config.APP_ID
 API_HASH = Config.API_HASH
 AUTH_USERS = set(Config.AUTH_USERS)
 AUTH_USERS = list(AUTH_USERS)
